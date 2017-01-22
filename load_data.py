@@ -1,9 +1,3 @@
-# %load load_data.py
-import os
-import shutil
-import pickle
-from urllib import request
-
 dir = 'data'
 if not os.path.exists(dir):
     os.makedirs(dir)
